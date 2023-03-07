@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Please note this is a template site. Feel free to use and change this as you want\nWelcome to the “insert company” data science community site. We’re glad you’re here! This site will include recordings of past events, resources, and information for getting set-up with the tools available in the organization.\nAll are welcome - no matter your team or experience. If you have any questions, please don’t hesitate to reach out on our Data Science Slack channel."
+  },
+  {
+    "objectID": "index.html#community-event-recordings",
+    "href": "index.html#community-event-recordings",
+    "title": "",
+    "section": "Community event recordings:",
+    "text": "Community event recordings:\n\n\n\n\n\n\n\n\n\n\nData Science Hangout\n\n\nEvery Thursday at 12 ET\n\n\n\nData Science Hangout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating the value of data science\n\n\nData Society\n\n\n\nMeetup\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Bank Shiny Day\n\n\nWorld Bank\n\n\n\nWebsite\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEverything I learned about community building from growing up in a bar\n\n\nPosit\n\n\n\nBlog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPfizer R Centre of Excellence\n\n\nPfizer & NHS\n\n\n\nPodcast\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR @ AZ: Building a Community in the Pharmaceutical Industry\n\n\nAstraZeneca\n\n\n\nBlog post\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "upcoming-events.html",
+    "href": "upcoming-events.html",
+    "title": "",
+    "section": "",
+    "text": "Please note this is a template site. Feel free to use and change this as you want\nWe’d love to see you at an upcoming community event!\nWe host the following events at XYZ Company:\n\nBeginner Office Hours every Tuesday from 11-11:30 am ET\nInternal Meetup to highlight use cases the first Wednesday of every month at 9 am ET\nData Science Conference - once a year\n\nYou can use the calendar below to add individual events to your calendar or subscribe in the right-hand corner to be notified of every event.\n\n\n\n\n\n\nTip for your own site\n\n\n\n\n\nYou can use AddEvent to create a free account for people to add each community event to their calendar. AddEvent provides the html code chunk needed to embed this calendar into your own site."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "",
+    "section": "",
+    "text": "Company XYZ has Posit Team: Posit Workbench, Posit Connect, Posit Package Manager available across the organization. To request access, please contact: sales@posit.co (insert your own company contact)"
+  },
+  {
+    "objectID": "tools.html#helpful-resources",
+    "href": "tools.html#helpful-resources",
+    "title": "",
+    "section": "Helpful resources:",
+    "text": "Helpful resources:"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "",
+    "section": "",
+    "text": "Example community formats & talks:\nSometimes it can be helpful to borrow from other community organizers, rather than starting from scratch. Here are a few formats that have worked for others:\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "",
+    "section": "",
+    "text": "Learn from others building and growing communities all around the world:\n\n\n\n\n\n\n\n\n\n\nData Science Hangout\n\n\nEvery Thursday at 12 ET\n\n\n\nData Science Hangout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunicating the value of data science\n\n\nData Society\n\n\n\nMeetup\n\n\n\n\nMerav Yuravlivker\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorld Bank Shiny Day\n\n\nWorld Bank\n\n\n\nWebsite\n\n\n\n\nTony Fujs & Luiza Cardoso de Andrade\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEverything I learned about community building from growing up in a bar\n\n\nPosit\n\n\n\nBlog post\n\n\n\n\nRachael Dempsey\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPfizer R Centre of Excellence\n\n\nPfizer & NHS\n\n\n\nPodcast\n\n\n\n\nNHS, Mike Smith & Doug Robinson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR @ AZ: Building a Community in the Pharmaceutical Industry\n\n\nAstraZeneca\n\n\n\nBlog post\n\n\n\n\nGuillaume Desachy\n\n\n\n\n\n\n\n\nNo matching items"
+  }
+]

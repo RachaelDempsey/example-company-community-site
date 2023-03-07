@@ -1,0 +1,36 @@
+project: 
+  type: website
+  
+website: 
+  page-navigation: true
+  image:  images/banner.jpeg
+  site-url: "https://colorado.posit.co/rsc/ds-community-builder/" 
+  repo-url: "https://github.com/RachaelDempsey/ds-community-builder-site" 
+  navbar: 
+    search: true
+    left: 
+      - text: "Home"
+        file: index.qmd
+      - text: "Upcoming Events"
+        file: upcoming-events.qmd
+      - text: "Recordings"
+        file: resources.qmd
+      - text: "Data Science Tools"
+        file: tools.qmd
+  
+  page-footer:
+    right: "This page is built with 🖤 and [Quarto](https://quarto.org/)."
+    
+format:
+  html:
+    layout:
+    title-block-categories: false
+    title-block-banner: true
+    theme: minty
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+filters:
+  - include-files.lua
+  - quarto
