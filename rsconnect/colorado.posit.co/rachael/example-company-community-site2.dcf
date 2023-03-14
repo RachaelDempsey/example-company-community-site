@@ -5,10 +5,10 @@ account: rachael
 server: colorado.posit.co
 hostUrl: https://colorado.posit.co/rsc/__api__
 appId: 15669
-bundleId: 71378
+bundleId: 71380
 url: https://colorado.posit.co/rsc/example-community-site/
-when: 1678822190.39319
-lastSyncTime: 1678822190.39323
+when: 1678823415.69749
+lastSyncTime: 1678823415.69785
 quarto_version: 1.2.142
 quarto_engines: markdown
 asMultiple: FALSE

@@ -1,4 +1,5 @@
 ---
+theme: cosmo
 ---
 
 <center>
@@ -22,6 +23,7 @@ All are welcome - no matter your team or experience. If you have any questions, 
 Change the header above to an image with your own logo (could use a tool like [Canva](https://www.canva.com)) and adjust the events below to match those that are organized by your own community within your company
 :::
 
+
 ## Community event recordings:
 
 ---
@@ -41,5 +43,4 @@ title-block-style: plain
 
 ::: {#recording-listing}
 :::
-
 
