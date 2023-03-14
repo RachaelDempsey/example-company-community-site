@@ -1,11 +1,12 @@
 project: 
   type: website
   
-website: 
+website:
   page-navigation: true
   image:  images/banner.jpeg
-  site-url: "https://colorado.posit.co/rsc/ds-community-builder/" 
-  repo-url: "https://github.com/RachaelDempsey/ds-community-builder-site" 
+  site-url: "https://colorado.posit.co/rsc/example-community-site/" 
+  repo-url: "https://github.com/RachaelDempsey/example-company-community-site" 
+  repo-actions: [source]
   navbar: 
     search: true
     left: 
@@ -25,7 +26,7 @@ format:
   html:
     layout:
     title-block-categories: false
-    title-block-banner: true
+    title-block-banner: images/banner-1068.png
     theme: minty
     code-copy: true
     code-overflow: wrap

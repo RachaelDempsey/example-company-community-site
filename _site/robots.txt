@@ -1,1 +1,1 @@
-Sitemap: https://colorado.posit.co/rsc/ds-community-builder/sitemap.xml
+Sitemap: https://colorado.posit.co/rsc/example-community-site/sitemap.xml

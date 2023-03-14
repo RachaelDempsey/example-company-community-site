@@ -1,0 +1,15 @@
+name: example-company-community-site
+title: example-company-community-site
+username: rachael
+account: rachael
+server: colorado.posit.co
+hostUrl: https://colorado.posit.co/rsc/__api__
+appId: 15461
+bundleId: 71127
+url: https://colorado.posit.co/rsc/example-community-site/
+when: 1678390584.40914
+lastSyncTime: 1678390584.40918
+quarto_version: 1.2.142
+quarto_engines: markdown
+asMultiple: FALSE
+asStatic: FALSE

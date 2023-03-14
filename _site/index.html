@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,42 +58,13 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recording-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-categories','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-categories","listing-subtitle","listing-image","listing-path","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recording-listing'] = new List('listing-recording-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>
     .quarto-title-block .quarto-title-banner {
-      color: white;
+      background-image: url(images/banner-1068.png);
+background-size: cover;
     }
     </style>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -129,20 +98,20 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#community-event-recordings" id="toc-community-event-recordings" class="nav-link active" data-scroll-target="#community-event-recordings">Community event recordings:</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/RachaelDempsey/example-company-community-site/blob/main/index.qmd" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -153,7 +122,6 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Please note this is a template site. Feel free to use and change this as you want</strong></p>
 <p>Welcome to the “insert company” data science community site. We’re glad you’re here! This site will include recordings of past events, resources, and information for getting set-up with the tools available in the organization.</p>
 <p>All are welcome - no matter your team or experience. If you have any questions, please don’t hesitate to reach out on our Data Science Slack channel.</p>
-<p><br></p>
 <div class="callout-tip callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -172,146 +140,9 @@ Tip for your own site
 </div>
 <section id="community-event-recordings" class="level2">
 <h2 class="anchored" data-anchor-id="community-event-recordings">Community event recordings:</h2>
-<div id="listing-recording-listing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Data Science Hangout">
-<a href="https://posit.co/data-science-hangout/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/dsh-logo.png" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Science Hangout
-</h5>
-<div class="card-subtitle listing-subtitle">
-Every Thursday at 12 ET
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Data Science Hangout'); return false;">
-Data Science Hangout
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Meetup">
-<a href="https://youtu.be/xR9kGAZXpV4" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/merav.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Communicating the value of data science
-</h5>
-<div class="card-subtitle listing-subtitle">
-Data Society
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Meetup'); return false;">
-Meetup
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Website">
-<a href="https://www.worldbank.org/en/events/2021/04/28/-r-shiny-days#overview" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/shinyday.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-World Bank Shiny Day
-</h5>
-<div class="card-subtitle listing-subtitle">
-World Bank
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Website'); return false;">
-Website
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Blog post">
-<a href="https://rachaeldempsey.quarto.pub/community-corner-blog/posts/post-with-code/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/rachael-talk.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Everything I learned about community building from growing up in a bar
-</h5>
-<div class="card-subtitle listing-subtitle">
-Posit
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Blog post'); return false;">
-Blog post
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Podcast">
-<a href="https://benubah.github.io/r-community-explorer/rugs.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/nhs-podcast.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pfizer R Centre of Excellence
-</h5>
-<div class="card-subtitle listing-subtitle">
-Pfizer &amp; NHS
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Podcast'); return false;">
-Podcast
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Blog post">
-<a href="https://www.rstudio.com/blog/building-a-community-in-the-pharmaceutical-industry/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./resources/images/az-meetups.jpg" class="thumbnail-image card-img" style="height: 100%;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-R @ AZ: Building a Community in the Pharmaceutical Industry
-</h5>
-<div class="card-subtitle listing-subtitle">
-AstraZeneca
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Blog post'); return false;">
-Blog post
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<div id="recording-listing">
 
+</div>
 
 
 </section>

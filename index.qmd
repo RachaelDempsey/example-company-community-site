@@ -1,6 +1,6 @@
 ---
-theme: cosmo
 ---
+
 <center>
 ![](images/banner-1068.png){fig-alt="Data Science community at your company"}
 </center>
@@ -13,7 +13,7 @@ Welcome to the "insert company" data science community site. We're glad you're h
 
 All are welcome - no matter your team or experience. If you have any questions, please don't hesitate to reach out on our Data Science Slack channel.
 
-<br>
+
 
 
 ::: {.callout-tip collapse=TRUE}
